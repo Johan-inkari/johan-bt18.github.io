@@ -1,0 +1,229 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+				
+				/* formulaire moyen de communication*/
+form{
+	
+	display: flex;
+	min-height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.contactform{
+	
+	max-width: 600px;
+	width: 85%;
+	background: #fff;
+	padding: 20px 40px;
+	border-radius: 8px;
+	text-align: center;
+	box-shadow: 20px  20px 20px 14px;
+} 
+
+.mecont{
+	color: red;
+	font-family: Langar;
+}
+
+
+.contactform h2{
+margin-top: 0;
+}
+
+
+.fi{
+	padding: 5px;
+}
+
+
+.field{
+	width: 60%;
+	padding: 0.9rem 1rem;
+	font-size: 1.1rem;
+}
+
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.field:focus{
+	background-color: #fff;
+	border: 2px solid rgba(30, 85, 250, 0.2);
+}
+
+.fi:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+.fi:focus{
+	background-color: #fff;
+	border: 2px solid rgba(30, 85, 250, 0.2);
+}
+
+.button{
+	width: 50%;
+	background-color: red;
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	color: #fff;
+}
+
+
+.button:hover{
+	background-color:#27ae60;
+	
+}
+ 					/*responsive formulaire*/
+
+
+
+@media screen and (max-width:941px ){
+
+.contactform{
+	margin-bottom: -130px;
+	height: 370px;
+	width: 70%;
+	
+} 
+
+
+}
+
+
+
+							/*header*/
+@font-face{
+ 	font-family:'d';
+ 	src: url('d.ttf');
+ }
+
+
+
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+}		
+
+
+@font-face{
+ 	font-family:'d';
+ 	src: url('d.ttf');
+ }
+
+.maxwidth{
+	max-width:1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+.nav-bar{
+	position: fixed;
+	background: crimson;
+	width: 100%;
+	padding:15px;
+
+}
+
+.nav-bar .maxwidth{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.nav-bar .logo a{
+font-size: 32px;
+font-weight: 600;
+color: #ffffff;
+font-family: Merriweather;
+}
+.nav-bar .logo a span{
+	color:#222 ;
+	font-family:'Gamja Flower';
+}
+.nav-bar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+	
+.nav-bar .menu li a {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-left: 25px;
+	font-family: Merriweather;
+}
+
+.nav-bar .menu li a:hover{
+	color: #222;
+	transition: 0.3s;
+}
+
+			
+
+
+span{
+	font-size: 35px;
+	color: #222;
+	font-family: chine;
+}
+
+.btn-toggle{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+								/*footer*/
+
+
+	footer{
+	flex-shrink: 0;
+}
+
+
+.contenu{
+	background-color: #222;
+	flex:1.0 auto;
+	line-height: 20px;
+
+}
+p.dessousimg{
+	font-size: 20px;
+	max-width: 710px;
+}
+
+.pos, .pos0{
+	text-align: center;
+}
+
+.pos0 i{
+	color: red;
+}
+
+p a i:hover{
+	color: red;
+
+}
+ 
+
+
+
+

@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+					
+
+
+
+					/*header*/
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+}		
+
+
+@font-face{
+ 	font-family:'d';
+ 	src: url('police/d.ttf');
+}
+
+
+.maxwidth{
+	max-width:1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+.nav-bar{
+	position: fixed;
+	background: crimson;
+	width: 100%;
+	padding:15px;
+}
+
+.nav-bar .maxwidth{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-bar .logo a{
+font-size: 32px;
+font-weight: 600;
+color: #ffffff;
+font-family: Merriweather;
+}
+
+.nav-bar .logo a span{
+	color:#222 ;
+	font-family:'Gamja Flower';
+}
+
+.nav-bar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+	
+.nav-bar .menu li a {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-left: 25px;
+	font-family: Merriweather;
+}
+
+.nav-bar .menu li a:hover{
+	color:#000;
+	transition: 0.3s;
+}
+
+@font-face{
+	font-family: 'chine';
+	src:url('police/chine.otf');
+}
+
+
+span{
+	font-size: 35px;
+	color: black;
+	font-family: Merriweather ;
+}
+
+.btn-toggle{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 60px;
+    height: 55px;
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+						/*travaux style*/
+section{
+	padding: 100px 0;
+}
+
+.contenuetravaux{
+	box-sizing: border-box;
+	display: flex;
+	height: 40vh;
+	justify-content: center;
+	align-items: center;
+ }
+
+.contenuetravaux a{
+	margin-left:15px;
+}
+
+ .contenuetravaux a:hover{
+transform: translateY(20px);
+ }
+
+h3.titre{
+text-align: center;
+font-size: 40px;
+font-weight: 500;
+
+padding-bottom: 20px;
+font-family: chine;
+
+}
+					
+
+img{
+	border-radius:30px;
+	width: 400px;
+
+}
+
+
+										/*responsive about*/
+						
+
+@media screen and (max-width:941px ){
+img{
+	width: 300px;
+}
+
+
+
+}
+
+@media screen and (max-width: 690px){
+	 img{
+		width: 245px;
+
+	} 
+
+h3.titre{
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+
+.pos0 i{
+	height:20px;
+}
+
+
+}
+
+
+
+						/*footer*/
+
+
+footer{
+	flex-shrink: 0;
+}
+
+
+.contenu{
+	background-color: #000;
+	flex:1.0 auto;
+	line-height: 20px;
+
+}
+p.dessousimg{
+	font-size: 20px;
+	max-width: 710px;
+}
+
+.pos, .pos0{
+	text-align: center;
+}
+.pos0 i{
+	color: red;
+}
+p a i:hover{
+	color: red;
+
+}
+  
+
+
+
+
+
+
+
+
+
+
+

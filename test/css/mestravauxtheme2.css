@@ -1,0 +1,24 @@
+
+
+					/*body style*/
+
+body.light{
+
+	background-color: #222;
+}
+
+.h6{
+	color: #fff;
+}
+
+
+						/*footer*/
+
+
+
+.contenu{
+	background-color: #000;
+	flex:1.0 auto;
+	line-height: 20px;
+
+}

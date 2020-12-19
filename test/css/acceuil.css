@@ -1,0 +1,56 @@
+ 
+/*header*/
+.head{
+	text-align: center;
+	margin:0;
+	margin-top: 0px;
+	background-color: #2d3436;
+	padding: 10px;
+}
+
+.head h2{
+	font-size: 30px;
+	color: #ffffff;
+}
+
+/*aside*/
+ .barVertical{
+ 	background-color: #8e44ad;
+ 	display: block;
+ 	margin: 50%;
+ 	float: left;
+ 	margin-left: 1000px;
+ 	padding : 10px 40px;
+ } 
+
+
+/*section*/
+
+ .deuxh{
+	width: 20%;
+	margin-left : 0px;
+	padding: 10px 40px;
+	box-shadow: 6px 6px 6px #F79F1F;
+
+}
+
+/*body*/
+
+
+
+.hl{
+	background-image: url(img/be.jpg);
+
+ 	background-size: 100%;
+ 	background-repeat: no-repeat;
+ 	background-attachment: scroll;
+ 	background-position: top right;
+ 	margin-top: -21px;
+ 	
+}
+
+
+
+
+
+

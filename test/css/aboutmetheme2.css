@@ -1,0 +1,48 @@
+
+						/*about style*/
+
+section{
+	padding: 100px 0;
+}
+
+
+body.light{
+
+	background-color: #222;
+}
+
+p{
+	color: #fff;
+}
+
+
+h6{
+	color:#fff;
+}
+
+span{
+	color: #fff;
+}
+
+.button{
+	
+	border-bottom: 8px solid #fff;
+	
+	
+}
+
+
+
+						/*footer*/
+
+
+
+.contenu{
+	background-color: #000;
+	flex:1.0 auto;
+	line-height: 20px;
+
+}
+
+ 
+

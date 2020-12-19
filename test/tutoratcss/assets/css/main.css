@@ -1,0 +1,30 @@
+* {
+    margin : 0;
+    padding : 0;
+
+    scroll-behavior: smooth;
+}
+
+button {
+    position: absolute;
+    top : 10px;
+    left : 10px;
+    font-size: 20px;;
+}
+
+body {
+    width : 100vw;
+    height : 1000vh;
+
+}
+
+.box {
+    width : 500px;
+    height : 500px;
+}
+
+.topBtn {
+    position : fixed;
+    bottom : 10px;
+    left : 10px;
+}

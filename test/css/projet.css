@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;  /*on enleve les marges,pages en boites*/
+	text-decoration: none;
+}		
+
+
+									/* header style */
+
+@font-face{
+ 	font-family:'d';
+ 	src: url("police/d.ttf");
+ }
+
+@font-face{
+	font-family: 'chine';
+	src:url('police/chine.otf');
+}
+
+.maxwidth{
+	max-width:1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+.nav-bar{
+	position: fixed;
+	background: crimson;
+	width: 100%;
+	padding:15px;
+
+}
+
+.nav-bar .maxwidth{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-bar .logo a{
+font-size: 32px;
+font-weight: 600;
+color: #ffffff;
+font-family: Merriweather;
+}
+
+.nav-bar .logo a span{
+	color: #222;
+	font-family:'Gamja Flower';
+}
+
+.nav-bar .menu li{
+	list-style: none;
+	display: inline-block;
+}
+
+.nav-bar .menu li a {
+	font-size: 22px;
+	color: #ffffff;
+	font-weight: 500;
+	margin-left: 25px;
+	font-family: Merriweather;
+}
+
+.nav-bar .menu li a:hover{
+	color: #000;
+	transition: 0.3s;
+}
+
+
+
+
+
+											/*home style*/
+.home{
+	display: flex;
+	background: url("mec.JPG")no-repeat center;
+ 	background-size: cover;
+ 	height: 100vh;
+ 	color: #ffffff;
+ 	min-height: 500px;
+
+}
+.home .maxwidth{
+	margin: auto 0 auto 40px;
+}
+ 
+.home .contenuehome .text1{
+font-size: 27px;
+font-family: Merriweather;
+}
+
+.home .contenuehome .text2{
+font-size: 75px;
+font-weight: 600;
+margin-left: -3px;
+font-family: Merriweather;
+}
+.home .contenuehome .text3{
+font-size: 40px;
+margin: 5px 0;
+font-family: Merriweather;
+}
+
+
+.home .contenuehome .text3 span{
+	color: crimson;
+	font-weight: 500;
+
+}
+
+
+
+.button{
+	background-color: crimson;
+	border: none;
+	color: #ffffff;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.5rem;
+	border-radius: 1rem;
+	padding: 12px 36px;
+	border-bottom: 8px solid #ffffff;
+	transition: 11 .1s;
+	-webkit-transition:11 .1s;
+	font-family: 'Dancing Script';
+	
+}
+
+.button:active{
+	-webkit-transform: translate(0, 5px);
+	border-bottom:  solid;}
+
+										/*responsive*/
+
+
+
+
+@media screen and (max-width:1104px ){
+.home .maxwidth{
+	margin-left: 0px;
+}
+
+
+@media screen and (max-width:941px ){
+.maxwidth{
+	padding: 0 20px;
+}
+
+.home .contenuehome .text2{
+	font-size: 70px;
+
+}
+.home .contenuehome .text3{
+	font-size: 35px;
+	
+}
+
+}
+
+@media screen and (max-width: 690px){
+	.home .contenuehome .text2{
+		font-size: 60px;
+
+	} 
+
+.maxwidth{
+	padding: 0 20px;
+}
+
+}
+
+
+@media screen and (max-width: 690px){
+	.home .contenuehome .text3{
+		font-size: 32px;
+
+	} 
+
+.maxwidth{
+	padding: 0 20px;
+}
+
+ .button{
+	font-size: 23px;
+	padding: 12px 30px;
+ }
+} 
+
+						
